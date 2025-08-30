@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, Users, MapPin, Clock, CreditCard, Shield, CheckCircle } from 'lucide-react';
-
+import { Shield, CheckCircle } from 'lucide-react';
 const LoafLifeReservationSystem = () => {
   const [currentStep, setCurrentStep] = useState(1);
   const [selectedDates, setSelectedDates] = useState([]);
